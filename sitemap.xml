@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://tungtrt.github.io/docs/aws/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/docs/cshape/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/docs/devops/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/docs/docker/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/docs/iot/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/docs/java/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/docs/kubernetes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/docs/nodejs/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/docs/python/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/docs/security/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/docs/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/</loc>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
