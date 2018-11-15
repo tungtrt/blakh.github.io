@@ -1,0 +1,21 @@
+# HOW TO BUILD AND PUBLISH
+
+### BUILD
+
+```
+hugo --theme=book -v
+```
+
+### COPY TO PUBLISH
+
+```
+hugo -d ../tungtrt.github.io
+```
+
+### PUBLISH SITE
+
+```
+git add .
+git commit
+git push
+```

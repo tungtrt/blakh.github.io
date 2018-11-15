@@ -33,7 +33,7 @@ publishDir: public
 #-------------------------------------------------------------------------------
 
 # Default Theme
-theme: 'book'
+theme: book
 
 # Default Post Extension
 defaultExtension: html
@@ -119,7 +119,7 @@ noTimes: false
 #-------------------------------------------------------------------------------
 
 # Hostname (and path) to the root, e.g. http://spf13.com/
-baseURL: 'localhost'
+baseURL: 'https://tungtrt.github.io'
 
 # Enable this to make all relative URLs relative to content
 # root. Note that this does not affect absolute URLs. See
@@ -164,7 +164,7 @@ defaultContentLanguageInSubdir: false
 # CONTENT RELATED
 #-------------------------------------------------------------------------------
 
-title: 'Title'
+title: 'Home Page'
 
 # Title Case style guide for the title func and other
 # automatic title casing in Hugo.
@@ -288,7 +288,7 @@ menu:
   docs:
 
       # Item name
-    - Name: "about hugo"
+    - Name: "about blak"
 
       # Item prefix
       Pre: "<i class='fa fa-heart'></i>"
@@ -349,4 +349,13 @@ related:
 
 # Usage {{ .Site.Params.[PARAMETER_NAME] }}
 params:
-  Subtitle: Another Blog
+  # show or hide table of contents for page
+  BookShowToC: true
+
+  # Set bundle to render side menu
+  # if not specified file structure and weights will be used
+  BookMenuBundle: /docs/menu
+
+  # specify section of content to render as menu
+  # if bookMenuBundle is not set, 'docs' is value by default
+  BookSection: docs

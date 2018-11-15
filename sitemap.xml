@@ -43,22 +43,12 @@
   </url>
   
   <url>
-    <loc>https://tungtrt.github.io/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://tungtrt.github.io/docs/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tungtrt.github.io/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tungtrt.github.io/tags/</loc>
-    <priority>0</priority>
   </url>
   
 </urlset>
