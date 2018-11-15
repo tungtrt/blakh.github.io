@@ -1,17 +1,352 @@
-# (Optional) Set this to true if you use captial letters in file names
+#-------------------------------------------------------------------------------
+# CONFIG & DIRECTORY PATH
+#-------------------------------------------------------------------------------
+
+# Configuration file path.
+config: config.yaml
+
+# Archetype directory. Contains schema for content.
+archetypeDir: archetypes
+
+# Content directory. Contains all content created.
+contentDir: content
+
+# Layout directory. Contains all website view.
+layoutDir: layouts
+
+# Data directory. Contains all kinds of data-format content.
+dataDir: data
+
+# Static directory. Will be copied directly to destination.
+staticDir: static
+
+# Theme directory. Contains all theme installed on website.
+themesDir: themes
+
+# Destination directory.
+publishDir: public
+
+
+
+#-------------------------------------------------------------------------------
+# DEFAULT SETTINGS
+#-------------------------------------------------------------------------------
+
+# Default Theme
+theme: 'book'
+
+# Default Post Extension
+defaultExtension: html
+
+# Default Layout
+defaultLayout: post
+
+# Default metadata format for newly created frontmatter using
+# hugo new command. "toml", "yaml", or "json"
+metaDataFormat: yaml
+
+
+
+#-------------------------------------------------------------------------------
+# BUILD CONFIG
+#-------------------------------------------------------------------------------
+
+# Include content marked as draft
+buildDrafts: false
+
+# Include content with publishdate in the future
+buildFuture: false
+
+# Include content already expired
+buildExpired: false
+
+
+
+#-------------------------------------------------------------------------------
+# ENABLE / DISABLE
+#-------------------------------------------------------------------------------
+
+# Enable GitInfo feature
+enableGitInfo: false
+
+# Build robots.txt file
+enableRobotsTXT: false
+
+# Enable Emoji emoticons support for page content;
+# see emoji-cheat-sheet.com
+enableEmoji: false
+
+# Show a placeholder instead of the default value or an empty
+# string if a translation is missing
+enableMissingTranslationPlaceholders: false
+
+# Disable Live Reload on Hugo Serve
+disableLiveReload: false
+
+# Do not inject generator meta tag on homepage
+disableHugoGeneratorInject: false
+
+# Do not build RSS files [DEPRECATED] see disableKinds
+# disableRSS: false
+
+# Do not build Sitemap file [DEPRECATED] see disableKinds
+# disableSitemap: false
+
+# Do not render 404 page [DEPRECATED] see disableKinds
+# disable404: false
+
+# Allows you to disable all page types and will render nothing
+# related to 'kind';
+#
+# values = "page", "home", "section", "taxonomy",
+#          "taxonomyTerm", "RSS", "sitemap",
+#          "robotsTXT", "404"
+disableKinds: ['taxonomy']
+
+# Do not make the url/path to lowercase
 disablePathToLower: false
 
+# Don't sync permission mode of files
+noChmod: false
+
+# Don't sync modification time of files
+noTimes: false
+
+
+
+#-------------------------------------------------------------------------------
+# URL RELATED SETTINGS
+#-------------------------------------------------------------------------------
+
+# Hostname (and path) to the root, e.g. http://spf13.com/
+baseURL: 'localhost'
+
+# Enable this to make all relative URLs relative to content
+# root. Note that this does not affect absolute URLs. See
+# https://gohugo.io/content-management/urls
+relativeURLs: false
+
+# If true all relative URLs would instead be canonicalized
+# using baseURL.
+canonifyURLs: false
+
+# If true, use /filename.html instead of /filename/
+uglyURLs: false
+
+# Preserve special characters in taxonomy names
+# ("Gérard Depardieu" vs "Gerard Depardieu")
+preserveTaxonomyNames: false
+
+# Default pagination every X items
+paginate: 10
+
+# Additional path appended for pagination
+paginatePath: page
+
+# See "content-management/permalinks"
+permalinks: null
+
+
+
+#-------------------------------------------------------------------------------
+# LOCALE & LANGUAGE
+#-------------------------------------------------------------------------------
+
+# Missing translations will default to this content language
+defaultContentLanguage: en-us
+
+# Renders the default content language in subdir, e.g. /en/.
+# The root directory / will redirect to /en/
+defaultContentLanguageInSubdir: false
+
+
+#-------------------------------------------------------------------------------
+# CONTENT RELATED
+#-------------------------------------------------------------------------------
+
+title: 'Title'
+
+# Title Case style guide for the title func and other
+# automatic title casing in Hugo.
+#
+# Valid values are "AP" (default), "Chicago" and "Go"
+# (which was what you had in Hugo <= 0.25.1).
+#
+# See https://www.apstylebook.com/ and
+# http://www.chicagomanualofstyle.org/home.html
+titleCaseStyle: AP
+
+# Enables syntax guessing for code fences without
+# specified language
+pygmentsCodeFencesGuessSyntax: false
+
+# Color-codes for highlighting derived from this style
+pygmentsStyle: monokai
+
+# true use pygments-css or false will color code directly
+pygmentsUseClasses: false
+
+# Pluralize titles in lists using inflect
+pluralizeListTitles: true
+
+# Maximum number of items in the RSS feed
+rssLimit: 15
+
+# See "Section Menu for Lazy Bloggers",
+# /templates/menu-templates for more info
+SectionPagesMenu: ''
+
+# The length of text to show in a .Summary
+summaryLength: 70
+
+newContentEditor: ''
+
+
+
+#-------------------------------------------------------------------------------
+# DEVELOPMENT & DEBUGGING
+#-------------------------------------------------------------------------------
+
+# Enable Logging
+log: false
+
+# Log File path (if set, logging enabled automatically)
+logFile: ''
+
+# Display memory and timing of different steps of the program
+stepAnalysis: false
+
+# Display metrics about template executions
+templateMetrics: false
+
+# Verbose output
+verbose: false
+
+# Verbose logging
+verboseLog: false
+
+
+#-------------------------------------------------------------------------------
+# TAXONOMIES MAPPING
+#-------------------------------------------------------------------------------
+
+# Taxonomies
+taxonomies:
+  - category: categories
+  - tag: tags
+
+
+
+#-------------------------------------------------------------------------------
+# OUTPUT FORMAT
+#-------------------------------------------------------------------------------
+
+# Possible output based on Kinds
+#
+# keys = "page", "home", "section", "taxonomy",
+#        "taxonomyTerm", "RSS", "sitemap",
+#        "robotsTXT", "404"
+outputs:
+  home: ['HTML', 'JSONFeed', 'RSS', 'InstantArticles']
+  page: ['HTML', 'JSON']
+
+# Custom Output format configuration
+#
+# For default Output format, see
+outputFormats:
+
+  # Output format name
+  RSS:
+
+    # Base name file
+    baseName: rss
+
+  JSONFeed:
+
+    # Mime Type
+    mediaType: application/json
+    baseName: feed
+
+    # Determine if it is plaintext or html
+    isPlainText: true
+
+  InstantArticles:
+    mediaType: application/rss
+    baseName: instant-article
+    isPlainText: true
+
+
+
+#-------------------------------------------------------------------------------
+# CUSTOM MENU
+#-------------------------------------------------------------------------------
+
+# Menu key configuration
+menu:
+
+  # Menu area
+  docs:
+
+      # Item name
+    - Name: "about hugo"
+
+      # Item prefix
+      Pre: "<i class='fa fa-heart'></i>"
+
+      # Item allocated weight
+      Weight: -110
+
+      # Item identifier
+      Identifier: "about"
+
+      # Path for destination
+      URL: "/about/"
+
+
+
+#-------------------------------------------------------------------------------
+# RELATED CONTENT
+#-------------------------------------------------------------------------------
+
+# Related key configuration
+related:
+
+  # Only include matches with rank >= threshold. This is a
+  # normalized rank between 0 and 100.
+  threshold: 80
+
+  # To get stable "See also" sections we, by default, exclude
+  # newer related pages.
+  includeNewer: false
+
+  # Will lower case keywords in both queries and in
+  # the indexes.
+  toLower: false
+
+  # Indices list
+  indices:
+
+      # Indices name
+    - name: author
+
+      # Amount weight allocated
+      weight: 150
+
+      # Normalize to lowercase first
+      toLower: true
+
+    - name: date
+      weight: 10
+
+      # Format date
+      pattern: "2006"
+
+
+
+#-------------------------------------------------------------------------------
+# CUSTOM GLOBAL PARAMETERS
+#-------------------------------------------------------------------------------
+
+# Usage {{ .Site.Params.[PARAMETER_NAME] }}
 params:
-  # (Optional, default true) Show or hide table of contents globally
-  # You can also specify this parameter per page in front matter
-  BookShowToC: true
-
-  # (Optional, default none) Set leaf bundle to render as side menu
-  # When not specified file structure and weights will be used
-  BookMenuBundle: /menu
-
-  # (Optional, default docs) Specify section of content to render as menu
-  # You can also set value to "*" to render all sections to menu
-  BookSection: docs
-
-  publishDir: docs
+  Subtitle: Another Blog
