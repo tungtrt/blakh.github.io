@@ -151,9 +151,18 @@ permalinks: null
 #-------------------------------------------------------------------------------
 # LOCALE & LANGUAGE
 #-------------------------------------------------------------------------------
+languages:
+  en:
+    contentDir: content/en
+    languageName: English
+    weight: 10
+  vi:
+    contentDir: content/
+    languageName: Vietnames
+    weight: 20
 
 # Missing translations will default to this content language
-defaultContentLanguage: en-us
+defaultContentLanguage: vi
 
 # Renders the default content language in subdir, e.g. /en/.
 # The root directory / will redirect to /en/
