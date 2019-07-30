@@ -1,3 +1,8 @@
+---
+title: Nexus Repository
+type: docs
+---
+
 # Nexus Repository
 
 ## Contents

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Index on Home Page</title>
+    <title>TungTRT on Home Page</title>
     <link>https://tungtrt.github.io/</link>
-    <description>Recent content in Index on Home Page</description>
+    <description>Recent content in TungTRT on Home Page</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	<atom:link href="https://tungtrt.github.io/rss.xml" rel="self" type="application/rss+xml" />
@@ -11,74 +11,13 @@
     
     <item>
       <title></title>
-      <link>https://tungtrt.github.io/docs/aws/</link>
+      <link>https://tungtrt.github.io/docs/devops/nexus/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tungtrt.github.io/docs/aws/</guid>
-      <description> AWS </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tungtrt.github.io/docs/cshape/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tungtrt.github.io/docs/cshape/</guid>
-      <description> C# and .NET </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tungtrt.github.io/docs/devops/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tungtrt.github.io/docs/devops/</guid>
-      <description> DevOps </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tungtrt.github.io/docs/docker/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tungtrt.github.io/docs/docker/</guid>
-      <description> Docker </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tungtrt.github.io/docs/iot/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tungtrt.github.io/docs/iot/</guid>
-      <description> IoT </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tungtrt.github.io/docs/java/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tungtrt.github.io/docs/java/</guid>
-      <description> Java </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tungtrt.github.io/docs/kubernetes/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tungtrt.github.io/docs/kubernetes/</guid>
-      <description> Kubernetes </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tungtrt.github.io/docs/linux/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tungtrt.github.io/docs/linux/</guid>
-      <description> Linux </description>
+      <guid>https://tungtrt.github.io/docs/devops/nexus/</guid>
+      <description>Nexus Repository Contents  Nexus Repository  Contents What is Nexus repository? Configuration Nexus Repository on Linux (CentOS or Redhat) 1. Install packages Change configuration of Nexus   What is Nexus repository? Configuration Nexus Repository on Linux (CentOS or Redhat) 1. Install packages  Install Java 1.8
+$ sudo yum install java-1.8.0-openjdk.x86_64  Download Nexus package from SonarType
+$ cd /tmp/ &amp;amp;&amp;amp; wget https://sonatype-download.global.ssl.fastly.net/repository/repositoryManager/3/nexus-3.14.0-04-unix.tar.gz  Unzip and move to /opt/nexus</description>
     </item>
     
     <item>
@@ -88,24 +27,6 @@
       
       <guid>https://tungtrt.github.io/docs/nodejs/</guid>
       <description> NodeJS </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tungtrt.github.io/docs/python/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tungtrt.github.io/docs/python/</guid>
-      <description> Python </description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tungtrt.github.io/docs/security/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tungtrt.github.io/docs/security/</guid>
-      <description> Security </description>
     </item>
     
   </channel>

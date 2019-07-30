@@ -4,46 +4,62 @@
   
   <url>
     <loc>https://tungtrt.github.io/docs/aws/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tungtrt.github.io/docs/cshape/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tungtrt.github.io/docs/devops/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/docs/devops/jenkins/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://tungtrt.github.io/docs/devops/nexus/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tungtrt.github.io/docs/docker/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tungtrt.github.io/docs/iot/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tungtrt.github.io/docs/java/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tungtrt.github.io/docs/kubernetes/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tungtrt.github.io/docs/linux/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tungtrt.github.io/docs/nodejs/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
     <loc>https://tungtrt.github.io/docs/python/</loc>
-  </url>
-  
-  <url>
-    <loc>https://tungtrt.github.io/docs/security/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -52,7 +68,12 @@
   </url>
   
   <url>
+    <loc>https://tungtrt.github.io/docs/security/</loc>
+  </url>
+  
+  <url>
     <loc>https://tungtrt.github.io/</loc>
+    <lastmod>2018-11-15T09:42:38+09:00</lastmod>
   </url>
   
 </urlset>

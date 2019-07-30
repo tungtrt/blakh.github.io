@@ -101,7 +101,7 @@ disableHugoGeneratorInject: false
 # values = "page", "home", "section", "taxonomy",
 #          "taxonomyTerm", "RSS", "sitemap",
 #          "robotsTXT", "404"
-disableKinds: ['taxonomy']
+disableKinds: ['taxonomy', 'taxonomyTerm']
 
 # Do not make the url/path to lowercase
 disablePathToLower: false
@@ -359,3 +359,11 @@ params:
   # specify section of content to render as menu
   # if bookMenuBundle is not set, 'docs' is value by default
   BookSection: docs
+  # (Optional, default January 2, 2006) Configure the date format used on the pages
+  # - In git information
+  # - In blog posts
+  BookDateFormat: 'Jan 2, 2006'
+
+  # (Optional, default false) Include JS scripts in pages. Disabled by default.
+  # - Keep side menu on same scroll position during navigation
+  BookEnableJS: true
